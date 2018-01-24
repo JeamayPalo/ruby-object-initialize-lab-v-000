@@ -19,5 +19,7 @@ class Dog
     @breed = breed || "Mutt"
   end
 
-
+  def breed
+    @breed
+  end
 end
